@@ -7,7 +7,7 @@
 ![server](https://img.shields.io/badge/server-single%20file-orange)
 [![Download](https://img.shields.io/github/v/release/AseemLab/AirBridge?label=download&color=3ee6c1)](https://github.com/AseemLab/AirBridge/releases/latest)
 
-End-to-end encrypted photo & video transfer from an iPhone to a Linux machine over your local Wi-Fi. No cloud, no cables, no app to install on the phone — Safari and a QR code are enough. Every byte is AES-256-GCM encrypted **on the phone** before it leaves the device.
+End-to-end encrypted photo & video transfer from an iPhone to a Linux machine over your local Wi-Fi. No cloud, no cables, no internet, no app to install on the phone — Safari and a QR code are enough. Every byte is AES-256-GCM encrypted **on the phone** before it leaves the device.
 
 ![AirBridge demo: scanning the terminal QR, verifying the emoji fingerprint, and sending a file end-to-end encrypted](assets/demo.gif)
 
