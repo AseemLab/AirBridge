@@ -1,0 +1,19 @@
+# virtualenv & Python artifacts
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# runtime state (keys, certs) — must never be committed
+.airbridge-state/
+*.pem
+*.key
+
+# received media (default out dir if run in-repo)
+AirBridge/
+.airbridge-parts/
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
