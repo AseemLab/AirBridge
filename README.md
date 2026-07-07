@@ -8,6 +8,8 @@
 
 End-to-end encrypted photo & video transfer from an iPhone to a Linux machine over your local Wi-Fi. No cloud, no cables, no app to install on the phone — Safari and a QR code are enough. Every byte is AES-256-GCM encrypted **on the phone** before it leaves the device.
 
+![AirBridge demo: scanning the terminal QR, verifying the emoji fingerprint, and sending a file end-to-end encrypted](assets/demo.gif)
+
 ```
 ┌────────────┐   scan QR    ┌──────────────────────────┐
 │   iPhone   │ ───────────▶ │  Safari page (WebCrypto) │
