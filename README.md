@@ -5,6 +5,7 @@
 ![python](https://img.shields.io/badge/python-3.9%2B-3776ab)
 ![deps](https://img.shields.io/badge/deps-2-lightgrey)
 ![server](https://img.shields.io/badge/server-single%20file-orange)
+[![Download](https://img.shields.io/github/v/release/AseemLab/AirBridge?label=download&color=3ee6c1)](https://github.com/AseemLab/AirBridge/releases/latest)
 
 End-to-end encrypted photo & video transfer from an iPhone to a Linux machine over your local Wi-Fi. No cloud, no cables, no app to install on the phone — Safari and a QR code are enough. Every byte is AES-256-GCM encrypted **on the phone** before it leaves the device.
 
@@ -25,7 +26,18 @@ End-to-end encrypted photo & video transfer from an iPhone to a Linux machine ov
                             └──────────────────────────┘
 ```
 
-## Quick start
+## Install
+
+**No terminal, no Python, no dependencies to think about — download a package:**
+
+| Your Linux | Do this |
+|---|---|
+| Ubuntu, Debian, Mint, Pop!_OS, elementary | Download the **`.deb`** from [Releases](https://github.com/AseemLab/AirBridge/releases/latest) → double-click it → click **Install**. Then open **AirBridge** from your applications menu. |
+| Fedora, Arch, openSUSE, or anything else | Download the **AppImage** from [Releases](https://github.com/AseemLab/AirBridge/releases/latest) → right-click it → **Properties → Permissions → Allow executing file as program** → double-click it. |
+
+Either way, a terminal window opens with a QR code — scan it with the iPhone's Camera app and follow the on-screen steps (see *Quick start* below for what happens next). The AppImage is fully self-contained (its own Python, no system packages touched); the `.deb` installs a small `airbridge` command plus an app-menu entry via `apt`/your software center.
+
+## Quick start (from source)
 
 ```bash
 ./run.sh
@@ -108,6 +120,7 @@ test_e2e.py      25-check suite: TLS, protocol interop, adversarial cases,
                  and the shipped browser JS executed under Node WebCrypto
 test_stress.py   concurrent multi-device upload stress test
 requirements.txt cryptography + qrcode, nothing else
+packaging/       recipes for the .deb and AppImage published on Releases
 ```
 
 ## Contributing

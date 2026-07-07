@@ -1,0 +1,16 @@
+Package: airbridge
+Version: __VERSION__-1
+Section: net
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.9), python3-cryptography, python3-qrcode
+Maintainer: AseemLab <aseemsaxenauk@gmail.com>
+Homepage: https://github.com/AseemLab/AirBridge
+Description: End-to-end encrypted iPhone to Linux media transfer over Wi-Fi
+ AirBridge receives photos and videos from an iPhone's Safari browser
+ over the local network. Every byte is AES-256-GCM encrypted on the
+ phone before it leaves the device, verified with a 4-emoji pairing
+ check. No cloud, no cable, and nothing to install on the phone.
+ .
+ Launch AirBridge from the applications menu, or run `airbridge` in a
+ terminal, then scan the QR code it prints with the iPhone Camera app.

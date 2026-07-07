@@ -17,3 +17,6 @@ AirBridge/
 .idea/
 .vscode/
 .DS_Store
+
+# built packages (published to GitHub Releases, not tracked in git)
+dist/

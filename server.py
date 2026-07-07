@@ -59,7 +59,7 @@ except ImportError:  # pragma: no cover
     sys.exit("AirBridge needs the 'cryptography' package:  pip install cryptography")
 
 APP_NAME = "AirBridge"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 PROTO = "AB1"                      # wire protocol tag used in all AAD strings
 CHUNK_SIZE = 4 * 1024 * 1024       # 4 MiB plaintext chunks
 GCM_NONCE = 12

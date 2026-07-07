@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=AirBridge
+GenericName=Encrypted Wi-Fi photo transfer
+Comment=Receive encrypted photos & videos from your iPhone over Wi-Fi
+Exec=airbridge
+Icon=airbridge
+Terminal=true
+Categories=Network;FileTransfer;
+StartupNotify=false
