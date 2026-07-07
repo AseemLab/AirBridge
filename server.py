@@ -1264,6 +1264,7 @@ INDEX_HTML = r'''<!doctype html>
 
   .center{min-height:60vh; display:flex; flex-direction:column; align-items:center;
           justify-content:center; text-align:center; gap:10px; padding:0 10px}
+  .center[hidden]{display:none}
   .spin{width:26px; height:26px; border-radius:50%; border:3px solid var(--line);
         border-top-color:var(--signal); animation:sp 1s linear infinite}
   @keyframes sp{to{transform:rotate(1turn)}}
